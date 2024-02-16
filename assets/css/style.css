@@ -118,6 +118,8 @@ div.container-header button {
 .trending-text {
   display: flex;
   align-items: center;
+  font-weight: bold;
+  font-size: 13px;
 }
 .container {
   display: flex;
@@ -128,7 +130,7 @@ div.container-header button {
   display: flex;
 }
 .articles .container .content .icon-title > img {
-  width: 20px;
+  width: 18px;
   height: auto;
   border-radius: 50%;
   margin-right: 10px;
@@ -140,7 +142,7 @@ div.container-header button {
   margin-right: 1.5rem;
 }
 .container .content .icon-title > h6 {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
 }
 .container .content > h4 {
@@ -148,11 +150,7 @@ div.container-header button {
   margin-top: 0.5rem;
   font-weight: bold;
 }
-.container .content > p {
-  margin-top: 0.5rem;
-  font-size: 13px;
-  color: #6b6b6b;
-}
+
 .articles {
   display: flex;
   flex-wrap: wrap;
@@ -160,6 +158,17 @@ div.container-header button {
 }
 .trending {
   padding: 2rem;
+}
+.date {
+  display: flex;
+  margin-top: 0.7rem;
+  font-size: 13px;
+  color: #6b6b6b;
+  gap: 10px;
+  align-items: baseline;
+}
+.date > img {
+  width: 15px;
 }
 /*Aside*/
 
